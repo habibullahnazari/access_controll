@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- end navbar -->
+    <form method="post">
+        {% csrf_token %}
+        <div class="container">
+            <h1>search</h1>
+           
+            <hr>
+           
+            <label for="anme"><b>searchid</b></label>
+            <input type="text" placeholder="Enter your id" name="search" id="email" required><br>
+            <button type="submit" class="registerbtn">serarch</button>
+        </div>
+
+        <div class="container signin">
+        </div>
+    </form>
+</body>
+
+</html>
